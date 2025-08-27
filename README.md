@@ -1,69 +1,49 @@
 # 📝 Todo App
 
-Todo App sederhana berbasis **React + Vite** dengan fitur modern:
-- ✨ Tambah, edit, hapus, dan tandai tugas selesai.
-- 📅 Deadline dengan penanda warna (overdue, hari ini).
-- 🎨 Dark/Light mode.
-- ⌨️ Navigasi dengan keyboard (↑ ↓ + Enter).
-- 📱 Drag & drop mobile-friendly untuk mengurutkan tugas.
-- 💾 Ekspor ke CSV.
-- Animasi halus dengan Framer Motion.
+A simple and modern **Todo App** built with **React + Vite**.  
+Features include categories, deadlines, drag & drop, keyboard navigation, dark mode, and CSV export.  
+
+🌐 **Live Demo:** [Todo App on GitHub Pages](https://dsaptaa.github.io/todo-app/)
 
 ---
 
-## 🚀 Demo
-Aplikasi dapat dicoba di sini:  
-👉 [Todo App Live](https://dsaptaa.github.io/todo-app/)
+## 🚀 Features
+- ✅ Add, edit, and delete tasks  
+- 📂 Categorize tasks  
+- 📅 Deadlines with overdue & today highlight  
+- ⌨️ Keyboard navigation (Up/Down to move focus)  
+- 📱 Mobile-friendly drag & drop sorting  
+- 🌙 Dark & light mode with smooth transition  
+- 📤 Export todos to CSV  
 
 ---
 
-## 📂 Struktur Proyek
+## 🛠️ Installation
 
-todo-app/
+Clone this repository and install dependencies:
 
-├── src/ # Kode utama React
+```bash
+git clone https://github.com/dsaptaa/todo-app.git
+cd todo-app
+npm install
+```
 
-├── public/ # Aset statis
+Run locally with Vite:
+```bash
+npm run dev
+```
 
-├── dist/ # Hasil build (tidak perlu di commit)
-
-├── package.json # Konfigurasi project
-
-└── vite.config.js # Konfigurasi Vite
-
-
----
-
-## 🛠️ Cara Menjalankan Lokal
-
-1. Clone repo:
-   ```bash
-   git clone https://github.com/dsaptaa/todo-app.git
-   cd todo-app
-
-2. Install dependency:
-   npm install
-   
-3. Jalankan di mode development:
-  npm run dev
-
-4. Build untuk production:
+Build for production:
+```bash
 npm run build
+```
 
-## 📦 Deploy ke GitHub Pages
+## 📦 Deployment
 
-1. Build project:
+This project is deployed using GitHub Pages.
+Build output (dist/) is pushed to the gh-pages branch for hosting.
 
-    npm run build
+## 📜 License
 
-
-2. Deploy hasil build ke branch gh-pages:
-
-    npm run deploy
-
-
-3. Aktifkan GitHub Pages di Settings → Pages dan pilih branch gh-pages.
-
-## 📜 Lisensi
-
-MIT License © 2025 dsaptaa
+This project is open-source under the MIT License
+.
